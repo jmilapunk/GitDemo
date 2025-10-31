@@ -1,0 +1,9 @@
+# Created at 2025-10-27T23:19:14.559
+Tried to run command without establishing a connection
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8f926149-20a0-4aad-89af-01d64cf13653, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 77492, moz:profile: C:\Users\jav\AppData\Local\..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 8f926149-20a0-4aad-89af-01d64cf13653
+
