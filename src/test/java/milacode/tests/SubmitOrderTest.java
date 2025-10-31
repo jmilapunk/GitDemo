@@ -36,6 +36,9 @@ public class SubmitOrderTest extends BaseTest {
 	@Test(dataProvider="getData", groups= {"Purchase"})
 	public void submitOrder(HashMap<String, String> input) throws IOException
 	{	System.out.println("Soy Javier");	
+		System.out.println("MILA");
+		System.out.println("ESTRADA");
+
 		ProductCatalogue productCatalogue = landingPage.loginApplication(input.get("email"), input.get("password"));
 		productCatalogue.addProductToCart(input.get("product"));
 

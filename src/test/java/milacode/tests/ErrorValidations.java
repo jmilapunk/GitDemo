@@ -27,7 +27,8 @@ public class ErrorValidations extends BaseTest {
 
 	@Test(groups= {"ErrorHandling"}/*, retryAnalyzer=Retry.class*/)
 	public void LoginErrorValidation() throws IOException
-	{		
+	{
+		System.out.println("ERROR VALIDATION");
 		ProductCatalogue productCatalogue = landingPage.loginApplication("jmila.ice2@gmail.com", "$Miej18496");
 		String ErrorMessage = landingPage.getErrorMesssage();
 		Assert.assertEquals(ErrorMessage, "Incorrect email or password.");		
