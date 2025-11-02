@@ -37,6 +37,8 @@ public class SubmitOrderTest extends BaseTest {
 	public void submitOrder(HashMap<String, String> input) throws IOException
 	{	
 		System.out.println("CREATING DEVELOP BRANCH");
+		System.out.println("CREATING DEVELOP ON MORE COMMIT");
+
 		System.out.println("Soy Javier");	
 		System.out.println("MILA");
 		System.out.println("ESTRADA");
